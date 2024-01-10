@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsoleApp7
-build_property.ProjectDir = D:\GitTask\ConsoleApp7\GitTask\
+build_property.ProjectDir = C:\Users\redmi\Documents\GitHub\GitTask\ConsoleApp7\GitTask\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

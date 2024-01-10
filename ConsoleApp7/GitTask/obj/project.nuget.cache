@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "p/SZw3So/b7U4MLsd8BejDI3KUV+QpFafy3UTr9zQqU+YFB/k4O+P9zboj8UYnZhypBTZDg0dfB1JsQUcJiHYA==",
+  "dgSpecHash": "zvLdg/fnRgPbaFqX/UoYHfvPCFIHrjr2SG+f1lLMnTE8mkS/8wi4XByAyIVkEyg97yQL914jNRbEKyta2ln1nQ==",
   "success": true,
-  "projectFilePath": "D:\\GitTask\\ConsoleApp7\\GitTask\\GitTask.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\redmi\\Documents\\GitHub\\GitTask\\ConsoleApp7\\GitTask\\GitTask.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\redmi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\redmi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\redmi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\redmi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
   "logs": []
 }
