@@ -5,19 +5,19 @@ Console.WriteLine($"Здраствуйте, {name} попробуйте угад
 bool rematch = true;
 int tryes = 0;
 string answers;
-int unnow_number = rnd.Next(1, 101);
+int unknow_number = rnd.Next(1, 101);
 while (rematch)
 {
 
     int answer = int.Parse(Console.ReadLine());
-    if (answer == unnow_number)
+    if (answer == unknow_number)
     {
         Console.WriteLine("Вы угадали ");
         Console.WriteLine($"Вам понадобилось,{tryes} попыток. Хотите еще раз?");
         answers = Console.ReadLine();
         if (answers == "Да")
         {
-            unnow_number = rnd.Next(1, 101);
+            unknow_number = rnd.Next(1, 101);
             Console.WriteLine("Попробуйте угадать число");
             continue;
         }
@@ -27,12 +27,12 @@ while (rematch)
         }
 
     }
-    else if (answer > unnow_number)
+    else if (answer > unknow_number)
     {
         Console.WriteLine("много");
         tryes++;
     }
-    else if (answer < unnow_number)
+    else if (answer < unknow_number)
     {
         Console.WriteLine("мало");
         tryes++;
